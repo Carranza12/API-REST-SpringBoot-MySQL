@@ -36,3 +36,21 @@ $ mvn spring-boot:run
 # Añade registros a tu BD
 
 Esto lo puedes hacer directamente en postman, o con un gestor de bases de datos, en este ejemplo usamos MySQL Workbench para agilizar el tiempo.
+
+![Registros de la base de datos](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/registros-bd.PNG)
+
+# Probando API con POSTMAN
+a continuacion probaremos todos los metodos HTTP de nuestra API.
+
+# GET: Listar todos los clientes
+![Registros de la base de datos](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/registros-bd.PNG)
+
+# GET: listar un cliente por su id
+
+# POST: Guardar un cliente
+
+# PUT: Actualizar los datos de un cliente
+
+# DELETE: Eliminar un cliente de la BD
+
+
