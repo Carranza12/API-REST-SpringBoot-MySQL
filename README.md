@@ -3,12 +3,12 @@ Hola, esta es una aplicacion con el marco de trabajo de Spring boot con java y e
 <br>
 <br>
 # Configuracion del entorno de trabajo
-Para poder ejecutar este proyecto es necesario tener instalado:
--MySQL - guia de instalacion: http://gieta.etsisi.upm.es/wp-content/uploads/2020/02/GuiaInstalacion_MySql_Community_8.0.19.pdf
--Maven - guia de instalacion en Windows 10: https://dev.to/vanessa_corredor/instalar-manualmente-maven-en-windows-10-50pb
-# Requisitos del proyecto Spring Boot
--MySQL 8.0
--Java 11 o superior
+Para poder ejecutar este proyecto es necesario tener instalado:<br><br>
+- MySQL - guia de instalacion: http://gieta.etsisi.upm.es/wp-content/uploads/2020/02/GuiaInstalacion_MySql_Community_8.0.19.pdf <br>
+- Maven - guia de instalacion en Windows 10: https://dev.to/vanessa_corredor/instalar-manualmente-maven-en-windows-10-50pb <br>
+# Requisitos del proyecto Spring Boot: <br>
+- MySQL 8.0 <br>
+- Java 11 o superior <br>
 # Configura la Base de datos
 Es necesario tener una base de datos con el nombre de "api_restful_crud" vacia, ya que el mismo programa creara las tablas.
 <br><br>
@@ -28,7 +28,11 @@ spring.jpa.show-sql: true
 spring.mvc.pathmatch.matching-strategy=ant-path-matcher
 
 ```
-#Ejecuta el servidor local
+# Ejecuta el servidor local
 una vez ya instalado todo lo necesario y ya clonado el proyecto ejecuta el servidor con el siguiente comando:
-
+```
 $ mvn spring-boot:run
+```
+# Añade registros a tu BD
+
+Esto lo puedes hacer directamente en postman, o con un gestor de bases de datos, en este ejemplo usamos MySQL Workbench para agilizar el tiempo.
