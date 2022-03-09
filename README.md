@@ -43,14 +43,14 @@ Esto lo puedes hacer directamente en postman, o con un gestor de bases de datos,
 a continuacion probaremos todos los metodos HTTP de nuestra API.
 
 # GET: Listar todos los clientes
-![Registros de la base de datos](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/registros-bd.PNG)
+![Listar todos los clientes](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/get-clientes.PNG)
 
 # GET: listar un cliente por su id
-
+![Listar un cliente](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/get-cliente.PNG)
 # POST: Guardar un cliente
-
+![guardar un cliente](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/post-cliente.PNG)
 # PUT: Actualizar los datos de un cliente
-
+![actualizar un cliente](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/put-cliente.PNG)
 # DELETE: Eliminar un cliente de la BD
-
+![eliminar un cliente](https://github.com/Carranza12/API-REST-SpringBoot-MySQL/blob/master/assets-repo/delete-cliente.PNG)
 
